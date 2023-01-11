@@ -56,7 +56,8 @@ header {
 
 header h1 {
 	margin: 0;
-	padding: 38px 0;
+	padding: 38px 20px 0;
+	border-bottom: 3px solid #77a466;
 	width: 100%;
 }
 
@@ -65,19 +66,20 @@ header h1 span {
 }
 
 header nav {
-	padding: 46px 0;
+	padding: 20px 0;
 }
 
 header nav ul {
 	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 
 header nav ul li {
 	font-size: .875rem;
 	font-weight: 700;
 	text-transform: uppercase;
-	padding: 0 10px;
+	padding: 10px 0;
 	width: 100%;
 }
 
@@ -166,4 +168,59 @@ footer span {
 	text-transform: lowercase;
 	color: #45610E;
 	font-size: .875rem;
+}
+
+@media all and (min-width: 768px) {
+
+	/***** BOTTOM SECTION *****/
+	.bottom-section .content-wrapper {
+		justify-content: space-evenly;
+	}
+
+	.section-one {
+		/*width: 29%;*/
+		width: 26%;
+	}
+
+	.section-two {
+		/*width: 42%;*/
+		width: 40%;
+		border-left: 5px solid #EEE;
+		border-right: 5px solid #EEE;
+		border-top: none;
+		border-bottom: none;
+		padding: 0 3px;
+	}
+
+	.section-three {
+		/*width: 29%;*/
+		width: 26%;
+	}
+}
+
+@media all and (min-width: 1200px) {
+	body {
+		font-size: 1em;
+	}
+	header .content-wrapper {
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px 0;
+	}
+
+	header h1 {
+		width: 30%;
+		padding: 0;
+		border-bottom: none;
+		text-align: left;
+	}
+
+	header nav {
+		width: 21%;
+	}
+
+	header nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
 }
