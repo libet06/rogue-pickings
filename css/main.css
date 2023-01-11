@@ -1,0 +1,169 @@
+/******** GLOBAL STYLES ********/
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: .9em;
+	color: #000000;
+}
+
+html {
+	font-size: 16px;
+}
+
+/* The width property has been changed to max-width */
+.content-wrapper {
+	max-width: 1200px;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 1.875em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+h4 {
+	font-size: .75em;
+}
+
+p {
+	line-height: 2.25em;
+}
+
+/******** HEADER STYLES ********/
+/* The widths are in a percentage! */
+header {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+header h1 {
+	margin: 0;
+	padding: 38px 0;
+	width: 100%;
+}
+
+header h1 span {
+	color: #45610E;
+}
+
+header nav {
+	padding: 46px 0;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	font-size: .875rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0 10px;
+	width: 100%;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: #45610E;
+}
+
+/********  MAIN STYLES ********/
+/******** TOP SECTION ********/
+/* The widths are in a percentage! */
+.main-image img {
+	width: 100%;
+	border-top: 3px solid #77A466;
+	border-bottom: 3px solid #77a466;
+}
+
+
+.main-title h2 {
+	color: #45610E;
+	padding: 5px 0;
+}
+
+/******** BOTTOM SECTION ********/
+.top-section,
+.bottom-section {
+	display: flex;
+	justify-content: center;
+}
+
+.bottom-section .content-wrapper {
+	border-top: 5px solid #EEE;
+	border-bottom: 5px solid #EEE;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	box-sizing: border-box;
+	padding: 0 40px;
+}
+
+.section-one {
+	/*width: 29%;*/
+	width: 100%;
+}
+
+.section-two {
+	/*width: 42%;*/
+	width: 100%;
+	border-left: 5px solid #EEE;
+	border-right: 5px solid #EEE;
+}
+
+.section-three {
+	/*width: 29%;*/
+	width: 100%;
+}
+
+.bottom-section h3 {
+	margin: 30px 0;
+}
+
+.menu-list {
+	padding-left: 0;
+	list-style: none;
+}
+
+.menu-list li {
+	color: #45610E;
+	font-size: 1rem;
+	line-height: 36px;
+}
+
+/******** FOOTER STYLES ********/
+/* The widths are in a percentage! */
+footer {
+	text-align: center;
+	margin-top: 8px;
+	display: flex;
+	justify-content: center;
+}
+
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #45610E;
+	font-size: .875rem;
+}
